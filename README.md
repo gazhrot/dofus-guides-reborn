@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dofus Guides Reborn ✨
 
-## Getting Started
+Un guide des donjons de Dofus moderne, rapide et entièrement responsive. Ce projet est une refonte complète visant à offrir une expérience utilisateur (UI/UX) propre et agréable pour parcourir les donjons du jeu.
 
-First, run the development server:
+## Aperçu 📸
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<table>
+  <tr>
+    <td align="center"><strong>Page d'accueil</strong></td>
+    <td align="center"><strong>Page de détail</strong></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/homepage.png" alt="Aperçu de la page d'accueil avec la liste des donjons"></td>
+    <td><img src="screenshots/detail-page.png" alt="Aperçu de la page de détail d'un donjon"></td>
+  </tr>
+</table>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Fonctionnalités
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Liste complète des donjons** : Parcourez l'ensemble des donjons disponibles dans le jeu.
+- **Recherche instantanée** : Filtrez les donjons en temps réel par nom.
+- **Détails complets** : Accédez à une page dédiée pour chaque donjon avec les informations clés :
+  - Boss et ses mécaniques
+  - Stratégie générale
+  - Récompenses et conseils
+- **Design moderne et animé** : Une interface soignée avec des transitions fluides pour une navigation agréable.
+- **Entièrement responsive** : Une expérience optimale sur ordinateur, tablette et mobile.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Stack Technique
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Ce projet est construit avec un ensemble de technologies modernes et performantes :
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Framework** : [Next.js](https://nextjs.org/) (React)
+- **Langage** : [TypeScript](https://www.typescriptlang.org/)
+- **Styling** : [Tailwind CSS](https://tailwindcss.com/)
+- **Composants UI** : [shadcn/ui](https://ui.shadcn.com/) (Radix UI & Lucide React)
+- **Animations** : [Framer Motion](https://www.framer.com/motion/)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📊 Source des Données
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Toutes les données concernant les donjons, les monstres et les images proviennent de l'API publique [dofusdb.fr](https://api.dofusdb.fr/).
+
+---
+
+## 🔧 Installation et Lancement Local
+
+Pour lancer ce projet sur votre machine, suivez ces étapes :
+
+1.  **Clonez le dépôt**
+
+    ```bash
+    git clone https://github.com/gazhrot/dofus-guides-reborn.git
+    ```
+
+2.  **Naviguez dans le dossier**
+
+    ```bash
+    cd dofus-guides-reborn
+    ```
+
+3.  **Installez les dépendances**
+
+    ```bash
+    npm install
+    ```
+
+4.  **Lancez le serveur de développement**
+
+    ```bash
+    npm run dev
+    ```
+
+5.  Ouvrez votre navigateur et allez sur [http://localhost:3000](http://localhost:3000).
+
+---
